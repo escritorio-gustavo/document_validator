@@ -6,7 +6,7 @@ description = "A small library to help you implement document validation"
 license = "MIT"
 
 [dependencies]
-document_validator_macros = { optional = true, path = "../macros/"}
+  document_validator_macros = { version = "0.1.0", optional = true, path = "../macros/"}
 
 [features]
 default = ["derive"]

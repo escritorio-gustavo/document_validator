@@ -9,4 +9,4 @@ description = "Macros used by document_validator"
 proc-macro = true
 
 [dependencies]
-document_validator_core = { path= "../core" }
+document_validator_core = { version = "0.1.0", path= "../core" }
