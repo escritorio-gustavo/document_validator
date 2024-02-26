@@ -7,8 +7,8 @@
 #[cfg(feature = "derive")]
 pub use document_validator_macros::*;
 
-pub mod cpf;
 pub mod cnpj;
+pub mod cpf;
 
 /// This trait indicates that a type is a document with a defined validation
 /// scheme. Such types should ideally be a newtype struct over a type that

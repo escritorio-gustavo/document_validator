@@ -124,8 +124,14 @@ mod test {
 
     #[test]
     fn invalid_cnpj() {
-        assert!(!Cnpj::validate("08254798000101"), "This is not a valid cnpj");
-        assert!(!Cnpj::validate("08254788000100"), "This is not a valid cnpj");
+        assert!(
+            !Cnpj::validate("08254798000101"),
+            "This is not a valid cnpj"
+        );
+        assert!(
+            !Cnpj::validate("08254788000100"),
+            "This is not a valid cnpj"
+        );
 
         assert!(
             !Cnpj::validate("00000000000000"),
@@ -133,4 +139,3 @@ mod test {
         );
     }
 }
-
