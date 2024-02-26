@@ -1,0 +1,12 @@
+[package]
+name = "document_validator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+document_validator_macros = { optional = true, path = "../macros/"}
+
+[features]
+default = ["derive"]
+derive = ["document_validator_macros"]
+
