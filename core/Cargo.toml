@@ -2,6 +2,8 @@
 name = "document_validator_core"
 version = "0.1.0"
 edition = "2021"
+description = "Required dependencies for document_validator and document_validator_macros"
+license = "MIT"
 
 [dependencies]
 proc-macro2 = "1"

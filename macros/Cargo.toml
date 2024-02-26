@@ -2,6 +2,8 @@
 name = "document_validator_macros"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Macros used by document_validator"
 
 [lib]
 proc-macro = true
