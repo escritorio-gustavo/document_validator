@@ -1,6 +1,6 @@
 [package]
 name = "document_validator_macros"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Macros used by document_validator"
@@ -9,4 +9,4 @@ description = "Macros used by document_validator"
 proc-macro = true
 
 [dependencies]
-document_validator_core = { version = "0.1.0", path= "../core" }
+document_validator_core = { version = "0.1.1", path= "../core" }
